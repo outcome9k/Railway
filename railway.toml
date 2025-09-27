@@ -1,0 +1,6 @@
+[deploy]
+startCommand = "v2ray run -config /etc/v2ray/config.json"
+
+[[services]]
+name = "v2ray"
+port = 8080
