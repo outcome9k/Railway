@@ -5,25 +5,19 @@
     "settings": {
       "clients": [{
         "id": "1c518bf4-a8a1-4d21-85ff-bc9c50eb0af6",
-        "flow": ""
+        "level": 0
       }],
       "decryption": "none"
     },
     "streamSettings": {
       "network": "ws",
-      "security": "none",
       "wsSettings": {
-        "path": "/ray",
-        "headers": {}
+        "path": "/tm-@v2ray"
       }
-    },
-    "sniffing": {
-      "enabled": true,
-      "destOverride": ["http", "tls"]
     }
   }],
   "outbounds": [{
     "protocol": "freedom",
     "settings": {}
   }]
-    }
+}
