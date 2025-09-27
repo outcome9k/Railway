@@ -4,17 +4,26 @@
     "protocol": "vless",
     "settings": {
       "clients": [{
-        "id": "1c518bf4-a8a1-4d21-85ff-bc9c50eb0af6"
+        "id": "1c518bf4-a8a1-4d21-85ff-bc9c50eb0af6",
+        "flow": ""
       }],
       "decryption": "none"
     },
     "streamSettings": {
       "network": "ws",
-      "security": "none"
+      "security": "none",
+      "wsSettings": {
+        "path": "/ray",
+        "headers": {}
+      }
+    },
+    "sniffing": {
+      "enabled": true,
+      "destOverride": ["http", "tls"]
     }
   }],
   "outbounds": [{
     "protocol": "freedom",
     "settings": {}
   }]
-}
+    }
