@@ -5,6 +5,10 @@ startCommand = "v2ray run -config /etc/v2ray/config.json"
 name = "v2ray"
 port = 8080
 
-[services.ports]
-http = 8080
-tcp = 8080
+[[services.ports]]
+handler = "http"
+port = 8080
+
+[[services.ports]] 
+handler = "tcp"
+port = 8080
