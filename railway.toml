@@ -7,4 +7,4 @@ port = 8080
 
 [services.ports]
 http = 8080
-ws = 8080
+tcp = 8080
