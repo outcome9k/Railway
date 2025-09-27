@@ -10,5 +10,5 @@ handler = "http"
 port = 8080
 
 [[services.ports]] 
-handler = "tcp"
+handler = "ws"
 port = 8080
